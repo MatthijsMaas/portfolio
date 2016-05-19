@@ -5,9 +5,15 @@
  * ------------------------------------- */
 
 // Paddings
+//
+body {
+    background-color: $gray-lighter;
+}
 .padded {
   padding-top: 5em;
   padding-bottom: 5em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 // Backgrounds
@@ -22,4 +28,62 @@
 }
 .bg-facebook {
   background: #3b5998;
+}
+
+.welcome h2 {
+  color: black;
+}
+
+.top_wrapper {
+  background-color: $gray-lighter;
+  width: 100%;
+}
+
+.wrapper {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  background: $gray-lighter;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0px 0px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  width: 100%;
+  color: $gray-lighter;
+}
+
+
+.container h1, h2, h3, p {
+  color: $portfolio-black;
+    border-radius: 5px;
+}
+.anchor {
+  position: relative;
+}
+
+.more-info {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 118px;
+    height: 60px;
+    margin-left: -59px;
+    background: url('../../images/btn-moreinfo.png') no-repeat center top;
+    cursor: pointer;
+  }
+
+.triangle {
+  width: 50px;
+  margin: 0 auto;
+  margin-top: 73px;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 75px solid $portfolio-gray;
+  color: white;
 }

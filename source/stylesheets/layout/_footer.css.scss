@@ -1,0 +1,37 @@
+
+#footer {
+  background: $portfolio-gray;
+  padding: 30px 0;
+  color: $gray-lighter;
+  height: 90px;
+  padding: 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+#footer p {
+  margin-top: 17px;
+}
+
+#footer ul {
+  margin-top: 10px;
+}
+
+#footer a {
+  color: $portfolio-white;
+  font-size: 40px;
+  letter-spacing: 25px;
+  transition: color 0.6s ease;
+}
+
+#footer a:hover{
+  color: $portfolio-orange;
+}
+
+
+a:hover {
+  color: $portfolio-orange;
+}

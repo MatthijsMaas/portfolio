@@ -1,0 +1,17 @@
+
+.btn {
+  border: 1px solid #999999;
+  padding: 15px 25px;
+  text-decoration: none;
+  color: #999999;
+  border-radius: 50px;
+  margin-top: 40px;
+  opacity: 0.6;
+  border: 1px solid $portfolio-orange;
+}
+
+.btn:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: gray;
+}
