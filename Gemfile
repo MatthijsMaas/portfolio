@@ -10,3 +10,7 @@ gem 'jquery-middleman'
 gem 'bootstrap-sass', '3.3.6'
 gem 'font-awesome-sass', '4.5.0'
 gem 'middleman-autoprefixer'
+
+source "https://rails-assets.org" do
+  gem 'rails-assets-scroll-reveal'
+end

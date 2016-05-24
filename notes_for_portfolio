@@ -1,0 +1,21 @@
+Think, Do and Make
+
+[horizontal?]
+
+past 
+present
+future
+
+
+---------------------
+.banner{
+justify-content: center;
+align-items: center;
+text-align: center;
+color: white;
+
+position: relative;
+
+
+(((include app scripts at the end)))
+
