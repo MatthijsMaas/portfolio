@@ -111,6 +111,7 @@ GEM
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
+    rails-assets-particles.js (2.0.0)
     rails-assets-scroll-reveal (3.1.4)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.5)
@@ -148,6 +149,7 @@ DEPENDENCIES
   middleman (~> 3.4)
   middleman-autoprefixer
   middleman-deploy (~> 1.0)
+  rails-assets-particles.js!
   rails-assets-scroll-reveal!
 
 BUNDLED WITH

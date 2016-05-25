@@ -1,6 +1,7 @@
 //= require scroll-reveal
 //= require jquery
 //= require bootstrap-sprockets
+//= require particles.js
 //= require_tree .
 //
 // $(document).ready
@@ -43,5 +44,9 @@ $(function(){
   sr.reveal('.card', 100);
   sr.reveal('.navbar', 100);
   sr.reveal('.tab', 100);
+
+  particlesJS.load('particles-js', 'javascripts/particlesjs-config.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
 
 });

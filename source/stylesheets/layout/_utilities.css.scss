@@ -17,6 +17,22 @@ body {
 // }
 
 // Backgrounds
+//
+#particles-js {
+  width: 100vw;
+  height: 70vh;
+  z-index: 15;
+  background-size: cover;
+  position: relative;
+}
+
+.welcome h2 {
+  color: black;
+  z-index: 20;
+  position: relative;
+}
+
+
 .bg-text {
   background: #4a4a4a;
 }
@@ -30,9 +46,6 @@ body {
   background: #3b5998;
 }
 
-.welcome h2 {
-  color: black;
-}
 
 .top_wrapper {
   background-color: $gray-lighter;

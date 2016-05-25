@@ -14,3 +14,7 @@ gem 'middleman-autoprefixer'
 source "https://rails-assets.org" do
   gem 'rails-assets-scroll-reveal'
 end
+
+source "https://rails-assets.org" do
+  gem 'rails-assets-particles.js'
+end
