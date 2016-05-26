@@ -7,7 +7,7 @@
 // Paddings
 //
 body {
-    background-color: $gray-lighter;
+  background-color: $gray-lighter;
 }
 // .padded {
 //   padding-top: 5em;
@@ -20,14 +20,14 @@ body {
 //
 #particles-js {
   width: 100vw;
-  height: 70vh;
+  height: 100vh;
   z-index: 15;
   background-size: cover;
   position: relative;
 }
 
 .welcome h2 {
-  color: black;
+  color: white;
   z-index: 20;
   position: relative;
 }
@@ -68,7 +68,7 @@ body {
 
 .container h1, h2, h3, p {
   color: $portfolio-black;
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 .tabs h1, h2, h3 {
@@ -81,15 +81,15 @@ body {
 }
 
 .more-info {
-    position: absolute;
-    left: 50%;
-    top: 0;
-    width: 118px;
-    height: 60px;
-    margin-left: -59px;
-    background: url('../../images/btn-moreinfo.png') no-repeat center top;
-    cursor: pointer;
-  }
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 118px;
+  height: 60px;
+  margin-left: -59px;
+  background: url('../../images/btn-moreinfo.png') no-repeat center top;
+  cursor: pointer;
+}
 
 .triangle {
   width: 50px;
@@ -105,4 +105,23 @@ body {
   border-right: 40px solid transparent;
   border-top: 75px solid $portfolio-gray;
   color: white;
+}
+
+
+.Header-resume {
+  border: 2px solid #CFE6F3;
+  border-radius: 4px;
+  // webkit-transition: background-color .4s,color .4s;
+  transition: background-color .4s,color .4s;
+  font-size: 24px;
+  padding: 10px;
+  margin-top: 5px;
+  font-color: $portfolio-white;
+  line-height: 6;
+}
+
+.Header-resume:hover {
+    background-color: $portfolio-gray;
+    color: #fff;
+    border: 2px solid $portfolio-gray;
 }
